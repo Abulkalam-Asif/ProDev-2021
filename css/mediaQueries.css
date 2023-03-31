@@ -1,0 +1,100 @@
+/* Media Queries */
+@media only screen and (max-width: 1199px) {
+  .h2Headings {
+    font-size: 2.6rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #sloganDiv {
+    padding: 40px 30px;
+  }
+  #slogan {
+    width: 450px;
+  }
+  #slogan h1 {
+    font-size: 5.5rem;
+  }
+
+  .h2Headings {
+    font-size: 2.3rem;
+  }
+  .navigationLinks {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #sloganDiv {
+    padding: 30px 30px;
+  }
+  #slogan {
+    width: 400px;
+  }
+  #slogan h1 {
+    font-size: 5rem;
+  }
+  #logo img {
+    width: 80px;
+  }
+  #websiteTitle h1 {
+    font-size: 3rem;
+  }
+
+  .footerIcons div svg {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  header .container {
+    justify-content: space-evenly;
+    height: 80px;
+    padding: 0 !important;
+  }
+  #logo img {
+    width: 60px;
+  }
+  #websiteTitle h1{
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin-left: -50px !important;
+  }
+  #sloganDiv {
+    padding: 30px 30px;
+    justify-content: flex-end;
+  }
+  #slogan {
+    width: 350px;
+  }
+  #slogan h1 {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  #logo {
+    margin-right: 10px !important;
+  }
+  #logo img {
+    width: 50px;
+  }
+  header .container {
+    height: 70px;
+  }
+  #websiteTitle h1{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin-left: -50px !important;
+  }
+  #sloganDiv {
+    padding: 20px 20px;
+    justify-content: flex-end;
+  }
+  #slogan {
+    width: 300px;
+  }
+  #slogan h1 {
+    font-size: 3.5rem;
+  }
+}

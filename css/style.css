@@ -1,0 +1,270 @@
+/* Styling of the header */
+
+header {
+  background-color: #191970;
+}
+
+header .container {
+  height: 100px;
+}
+
+#logo img {
+  border-radius: 100%;
+  width: 90px;
+}
+
+#websiteTitle h1 {
+  font-family: Acme;
+  font-size: 3.5rem;
+  letter-spacing: 5px;
+}
+
+#websiteTitle span {
+  color: #5aa147;
+}
+
+/* Styling of Navbar section */
+
+#navSection {
+  background: url(../images/bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#navbar {
+  font-family: FrancoisOne;
+  font-size: 1.3rem;
+}
+
+#navbarTitle {
+  font-family: LondrinaSolid !important;
+  font-size: 2rem !important;
+}
+
+#navbarTitle span:first-child {
+  color: #191970;
+}
+
+#navbarTitle span:first-child:after {
+  content: "";
+  background-color: #5aa147;
+  display: block;
+  width: 42px;
+  height: 3px;
+  position: absolute;
+  top: 55px;
+}
+
+#navbarTitle span:last-child {
+  color: #5aa147;
+}
+
+#navbarTitle span:last-child:after {
+  content: "";
+  background-color: #191970;
+  display: block;
+  width: 43px;
+  height: 3px;
+  position: absolute;
+  left: 73px;
+  top: 55px;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.active, .active:hover {
+  font-weight: 900;
+  background-color: #c09600 !important;
+}
+
+.nav-link:hover {
+  background-color: #dfaf0280;
+}
+
+.dropdown-item:hover {
+  background-color: #dfaf0280;
+  color: black;
+}
+
+.navDropMenu {
+  background-color: #f7c201;
+}
+
+.navDropMenu li a {
+  color: black;
+}
+
+#sloganDiv {
+  height: auto;
+  padding: 60px 90px;
+}
+
+#slogan {
+  width: 650px;
+  padding: 30px;
+  border: 3px solid #5aa147;
+  border-radius: 20px 30% 10% 40px;
+  transition: background-color 0.5s;
+  background-color: rgba(89, 160, 70, 0.5);
+}
+
+#slogan:hover {
+  background-color: #5aa147;
+}
+
+#slogan h1 {
+  font-size: 7rem;
+  font-family: Acme;
+  color: #191970;
+}
+
+/* Styling of about us page */
+#aboutUs {
+  font-family: FrancoisOne;
+}
+
+
+/* Styling of services Page */
+
+#services {
+  margin-top: 20px;
+}
+
+#services .container {
+  font-family: FrancoisOne;
+}
+
+.card-body .card-title {
+  font-size: 1.8rem;
+  width: fit-content;
+}
+
+.card-body .card-title:after {
+  content: "";
+  width: initial;
+  height: 2px;
+  background-color: #212529;
+  border-radius: 2px;
+  display: block;
+}
+
+.card-text {
+  font-size: 1.1rem;
+}
+
+.serviceBtn {
+  font-family: Acme;
+}
+.serviceBtn button {
+  font-size: 1.4rem;
+}
+
+.serviceBtn button:after {
+  font-family: FontAwesome;
+  margin-left: 6px;
+}
+
+#getWebsite:after {
+  content: "\f152";
+}
+
+#getMobileApp:after {
+  content: "\f10b";
+}
+
+#getDesktopApp:after {
+  content: "\f108";
+}
+
+#getVideoGame:after {
+  content: "\f11b";
+}
+
+/* Styling of footer section */
+footer {
+  background-color: #191970;
+  font-family: FrancoisOne;
+}
+
+.navigationLinks {
+  font-size: 1.5rem;
+  padding: 0;
+}
+
+.navigationLinks li a {
+  display: inline-block;
+  width: 100%;
+}
+
+.navigationLinks li:hover a{
+  color: #191970 !important;
+}
+.navigationLinks li:hover {
+  background-color: #f7c201;
+}
+
+footer a {
+  text-decoration: none;
+}
+footer li {
+  list-style: none;
+}
+
+footer li a:before {
+  content: "\f0da";
+  font-family: FontAwesome;
+  margin: 0 5px;
+}
+.footerPara {
+  color: #5aa147;
+}
+footer li:before, footer a {
+  color: #f7c201;
+}
+
+.footerIcons div svg {
+  font-size: 4rem;
+}
+
+.footerIcons div svg:hover {
+  color: #b38c00 !important;
+}
+
+/* General Classes */
+
+.h1Headings {
+  font-size: 4rem;
+  font-family: FrancoisOne;
+  width: fit-content;
+  color: #191970;
+}
+
+.h1Headings:after {
+  content: "";
+  width: initial;
+  height: 4px;
+  background-color: #5aa147;
+  border-radius: 100%;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+.h2Headings {
+  font-size: 3rem;
+  font-family: FrancoisOne;
+  width: max-content;
+  margin: auto;
+  color: #5aa147;
+}
+
+.h2Headings:after {
+  content: "";
+  width: initial;
+  height: 3px;
+  background-color: #191970;
+  background-color: #f7c201;
+  border-radius: 3px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
